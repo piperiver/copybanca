@@ -1,0 +1,14 @@
+
+/*Estilos para Adjuntos en valoracion*/
+.ValoracionAdjuntos .color-redA{
+    color: #e7505a;
+}
+.ValoracionAdjuntos .color-negro{
+    color: #000000;
+}
+.ValoracionAdjuntos .color-green{
+    color: #167927;
+}
+.ValoracionAdjuntos .margin-left-5{
+    margin-left: 10px;
+}

@@ -1,0 +1,673 @@
+@charset "utf-8";
+
+@media (min-width:992px) {
+
+
+    html, body {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+    .landing {
+        height: 90% !important;
+        width: 100%;
+
+        position: relative;
+
+
+    }
+
+
+    #carousel1 {
+        position: relative;
+        padding: 0;
+        height: 40em;
+        width: auto;
+
+    }
+    .contenido-slide {
+        width: 100%;
+        color: black!important;
+        height: 28em;
+        padding: 0!important;
+        position: absolute;
+
+
+
+    }
+    #carousel1 .img-mobile {
+        display: none;
+    }
+    .titu-slide {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black!important;
+        width: 100%!important;
+        text-transform: uppercase;
+        position: inherit;
+        top: -3em;
+        text-align: center;
+        margin-bottom: 0em;
+        margin-top: 0;
+        font-size: 3.5em;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px black;
+        left: 0;
+
+
+
+    }
+    #carousel1 .texto-slide {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black!important;
+        position: relative;
+        top: 0em;
+        left: 0;
+        line-height: 25px;
+        text-align: center;
+        width: auto;
+        height: auto;
+        font-size: 2em;
+        text-shadow: 0px 0px 0px black;
+        font-weight: 100!important;
+
+
+    }
+
+    #carousel1 .carousel-inner
+    {
+
+        height: 45em;
+
+
+    }
+
+    #carousel1 .carousel-indicators {
+        position: relative;
+        top: 34em;
+    }
+
+
+    .representacion {
+        position: relative;
+        top: 4em;
+        width: 90%;
+        left: 8em;
+
+
+    }
+
+
+    .formulario {
+        position: inherit;        
+        left: 10%;
+        text-align: center;
+        width: 80%;
+    }
+    .formulario input {
+        border: 0;
+        border-bottom: 1px solid silver;
+        text-align: center;
+        width: 50%;
+        position: relative;
+
+    }
+    .formulario input:last-child {
+        background: #911b1d;
+        width: 30%;
+        border-radius: 0.5em;
+        font-size: 1.1em;
+        color: white;
+        margin-top: 1.2em;
+        font-weight: bold;
+    }
+    .play-slide {
+        position: relative;
+        top: -0.8em;
+
+
+        text-align: center;
+
+
+        border: 4px solid silver;
+        text-shadow: 0px 1px 2px rgba(1,1,1, 0.0);
+        box-shadow: 0px 1px 1px rgba(139,0,0, 0.4);
+        border-radius: 50%;
+        background: rgba(0,0,0,0.1);
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 1.5em;
+        padding: 2px;
+        padding-top: 0px;
+        padding-left: 3px;
+        text-decoration: none;
+        color: darkred;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    .paso {
+        color: silver;
+        position: relative;
+        top: 14em;
+        text-align: center;
+
+
+
+    }
+    .paso h1 {
+        font-size: 1.2em;
+        padding: 0.5em;
+        text-align: center;
+        margin: 0 ;
+
+    }
+
+
+    .paso h1 a {
+        border:1px solid rgba(1,1,1,0.15);
+        background: rgba(0,0,0,0.20);
+        text-shadow: 0px 1px 2px black;
+        box-shadow: 0px 1px 1px black;
+        border-radius: 50%;
+        font-size: 1.2em;
+        padding: 0.4em;
+        text-align: center;
+        position: relative;
+        top: -14.5em;
+        right: 28em;
+        display: none;
+
+
+    }
+
+    .paso h1 strong {
+
+        text-decoration: underline;
+
+        animation-name: valor;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        transition: 0.6s;
+
+
+
+    }
+
+
+
+
+}
+
+/* estilos para moviles y tables */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+    .landing {
+
+        padding: 0;
+        position: static;
+        top: 0;
+
+    }
+
+
+
+
+    #carousel1 .carousel-indicators {
+        position: relative;
+        top: 28em;
+
+    }
+
+
+
+    .paso {
+        color: silver;
+        position: relative;
+        top: 34em;
+        text-align: center;
+
+
+
+    }
+    .paso h1 {
+        font-size: 1.2em;
+        padding: 0.5em;
+        text-align: center;
+        margin: 0 ;
+
+    }
+
+
+    .paso h1 a {
+        border:1px solid rgba(1,1,1,0.15);
+        background: rgba(0,0,0,0.20);
+        text-shadow: 0px 1px 2px black;
+        box-shadow: 0px 1px 1px black;
+        border-radius: 50%;
+        font-size: 1.2em;
+        padding: 0.23em;
+        text-align: center;
+        position: relative;
+        top: -8.5em;
+
+
+
+    }
+
+    .paso h1 strong {
+        color: black;
+
+    }
+
+
+    .landing {
+        height: 90% !important;
+        width: 95%;
+        left: 2.5%;
+    }
+    .landing .landin-iz #carousel1 {
+        height: 30em;
+        width: 90%;
+        text-align: center;
+        position: absolute;
+        top: 7em;
+        left: 5%;
+    }
+    .contenido-slide {
+        width: 100%;
+        color: black!important;
+        height: 35em;
+        padding: 0!important;
+        position: absolute;
+
+
+    }
+    .titu-slide {
+        color: black!important;
+        width: 100%;
+        text-transform: uppercase;
+        position: inherit;
+        top: -7em;
+        margin-bottom: 1em;
+        margin-top: 0;
+
+    }
+
+    #carousel1 {
+
+        position: relative;
+        top: 3em!important;
+
+        height: 50em;
+    }
+
+
+    #carousel1 .texto-slide {
+        color: black!important;
+        position: relative;
+        top: -2.7em;
+        line-height: 15px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 1.3em;
+        text-shadow: 0px 0px 0px white;
+        font-weight: 400;
+    }
+
+
+
+
+    #carousel1 .carousel-inner
+    {
+
+        height: 40em;
+
+        padding: 0;
+    }
+
+
+
+
+
+    #carousel1 .img-mobile {
+        display: block!important;
+        width: 30%;
+        position: relative;
+        top: -3em;
+    }
+    #carousel1 .carousel-indicators li {
+        border-color: rgba(148,4,6,1.00);
+        background: rgba(148,4,6,0.3);
+    }
+    .formulario {
+        position: inherit;
+        top: 50em;
+    }
+    .formulario input {
+        border: 0;
+        border-bottom: 1px solid silver;
+        text-align: center;
+        width: 100%;
+    }
+    .formulario input:last-child {
+
+        width: 70%;
+        border-radius: 0.5em;
+        font-size: 1.1em;
+        color: white;
+        margin-top: 1.2em;
+    }
+
+    .representacion {
+        display:none;
+    }
+
+    #carousel1 .carousel-indicators li {
+        border-color: rgba(1,1,1, 0.3);
+        background: rgba(1,1,1,0.3);
+        position: relative;
+        top: 12em;
+    }
+
+
+    .play-slide {
+        position: relative;
+        top: -2em;
+
+        border: 4px solid silver;
+        text-shadow: 0px 1px 2px rgba(1,1,1, 0.0);
+        box-shadow: 0px 1px 1px rgba(139,0,0, 0.4);
+        border-radius: 50%;
+        background: rgba(0,0,0,0.1);
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 1.5em;
+        padding: 2px;
+        padding-top: 0px;
+        padding-left: 3px;
+        text-decoration: none;
+        color: darkred;
+
+    }
+
+
+
+
+
+
+}
+
+/* celulares pequeños */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+
+    .landing {
+
+        padding: 0;
+    }
+    #carousel1 {
+
+        position: relative;
+        top: 0.3em!important;
+    }
+
+
+    #carousel1 .texto-slide {
+
+        position: relative;
+        top: -13em;
+        line-height: 15px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+    #carousel1 .titu-slide {
+        position: relative;
+        top: -8em;
+
+
+    }
+
+    #carousel1 .img-mobile {
+        display: block!important;
+        width: 30%;
+        position: relative;
+        top: -11em;
+    }
+
+
+    .play-slide {
+        position: relative;
+        top: -6em;
+
+
+        box-shadow: 0px 1px 4px rgba(139,0,0, 0.4);
+
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 1.5em;
+        padding: 2px;
+        padding-top: 0px;
+        padding-left: 3px;
+
+        color: darkred;
+
+    }
+
+
+    #carousel1 .carousel-indicators {
+        position: relative;
+        top: 28em;
+        display: none;
+
+    }
+
+
+    .formulario {
+        position: relative;
+        top: 32em;
+    }
+
+
+    .formulario input:last-child {
+
+        width: 70%;
+        border-radius: 0.5em;
+        font-size: 1.1em;
+        color: white;
+        margin-top: 1.2em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:360px) {
+
+
+
+    #carousel1 .titu-slide {
+        position: relative;
+        top: -9em;
+    }
+
+    #carousel1 .texto-slide {
+        position: relative;
+        top: -10em!important;
+    }
+
+
+    #carousel1 .img-mobile {
+        position: relative;
+        top: -20em;
+    }
+
+
+
+
+
+
+
+
+
+
+    .play-slide {
+        position: relative;
+        top: -11em;
+
+
+        font-size: 1.3em;
+        width: 1.5em;
+        height: 1.5em;
+        padding: 2px;
+        padding-top: 0px;
+        padding-left: 3px;
+
+
+    }
+
+
+
+
+
+
+
+
+    .formulario {
+        position: relative;
+        top: 25em;
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .representacion {
+        display: none;
+    }
+
+
+    .formulario input {
+
+        width: 80%;
+    }
+    .formulario input:last-child {
+
+        width: 35%;
+
+    }
+
+
+
+}
+
+.formulario input:last-child {
+    min-width: 98px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

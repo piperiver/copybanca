@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-jun-2017, 11:19:42
+    Author     : josorio
+*/
+
+#ModalDefinirObligaciones .listaSelObligaciones tr.Eliminar td{
+    background: #e7505a;
+    color: #fff;
+}
+#ModalDefinirObligaciones .listaSelObligaciones tr.Actualizar td{
+    background: #50c4e7;
+    color: #fff;
+}
+.head-inverse{
+    background: #2f3030;
+    color: #fff;
+}
+
+/*Estilos modal Info Obligaciones*/
+.modalEstudio .modal-header, .modalEstudio .modal-footer{
+    background: #2f3030;
+}
+.modalEstudio .logo {
+    max-width: 3em;
+    margin: 0 auto;
+    display: block;
+}
+.modalEstudio .btn-danger{
+    background: #911b1d;
+    border: 1px solid #000;
+    border-radius: 5px !important;
+}
+
+.text-white{
+    color: #e7ecf1;
+}
+
+.font-size11{
+    font-size: 11px;
+}
+
+.font-size-title{
+    font-size: 11px;
+    line-height: 29px;
+}
+
+@media (max-width: 400px) {
+    p{
+        font-size: 11px!important;        
+    }
+    
+    h4{
+        font-size: 11px!important;
+        line-height: 29px!important;
+    }
+    
+    th{
+        font-size: 11px!important;
+    }
+    
+    td{
+       font-size: 11px!important; 
+    }
+    
+    button{
+        font-size: 11px!important;
+    }
+    
+    input{
+        font-size: 11px!important;
+    }
+    
+    body{
+        font-size: 11px!important;
+    }
+    
+    span{
+        font-size: 11px!important;
+    }
+    
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        padding: 7px!important;
+    }
+}
+
+.ui-menu .ui-menu-item a {
+  font-size: 12px;
+}
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15000 !important;
+  float: left;
+  display: none;
+  min-width: 160px;
+  width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+.ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.ui-state-hover, .ui-state-active {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #0088cc;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      background-image: none;
+}
+#modalIns{
+    width: 500px;
+}

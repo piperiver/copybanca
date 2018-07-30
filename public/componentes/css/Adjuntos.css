@@ -1,0 +1,33 @@
+.form-Adjuntos{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    max-width: 80em;
+    margin: 0 auto;
+}  
+.bootstrap-filestyle{     
+    margin-top: 24px;
+}
+.marginX10{
+    margin-top: 10px;
+}
+.color-green {
+    color: #167927;
+}
+.color-redA {
+    color: #e7505a;
+}
+.color-negro {
+    color: #000000;
+}
+@media(min-width: 992px){
+    .bootstrap-filestyle{
+        margin: 0 auto;   
+        margin-top: 24px;     
+    }
+    .marginX10{
+        margin-top: 0;
+    }
+}

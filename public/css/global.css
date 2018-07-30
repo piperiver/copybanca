@@ -1,0 +1,135 @@
+/*.styleModalVtm .modal-header{
+  background-image: url("http://vtm.dev:8080//assets/layouts/layout5/img/logosistema.png");
+}*/
+body, h1, h2, h3, h4, h5, h6, p, div{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.modal .modal-header {
+    background-image: url("../img/logosistema.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14em;
+}
+.modal .modal-header, .modal .modal-footer {
+  background-color: #999999;
+}
+.modal .modal-header .close{
+  background-image: url("../assets/global/img/portlet-remove-icon-white.png"  )!important;
+  width: 11px;
+  height: 14px;
+  opacity: 1;
+}
+.modal .modal-footer button{
+  border: 1px solid;
+  border-color: #000000 !important;
+  border-radius: 5px !important;
+}
+.modal .modal-footer button:hover{
+  opacity: .8;
+}
+.modal .modal-footer button:nth-last-child(2) {
+  background: #911b1d !important;
+  color: #ffffff !important;
+}
+.modal .modal-footer button:nth-last-child(1) {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+.sombra{
+    box-shadow: 1px 2px 2px black !important;
+    border-radius: 10px !important;
+    border: 2px solid white !important;
+}
+.fondoDefault{
+    background: #e6e6e6 !important;
+}
+
+.portlet.box.main-color {
+    border: 1px solid #4266b2;
+    border-top: 0;
+}
+.portlet.box.main-color>.portlet-title, .portlet.main-color, .portlet>.portlet-body.main-color {
+    background-color: #4266b2;
+}
+.modal .modal-footer button:nth-last-child(2) {
+    background: #4266b2 !important;
+    color: #ffffff !important;
+}
+
+.page-header .navbar .navbar-nav>li:hover>a {
+    color: #fff;
+    background: #01005c;
+}
+
+.page-header .navbar .navbar-nav>li>a {
+    color: #fff;
+    background: #010044;
+}
+
+body{
+    background-color: #e9ebee;
+}
+.container-no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.page-header .navbar-fixed-top {
+    background: #e9ebee;
+}
+.page-header .navbar .topbar-actions .btn-group-img .btn {
+    background: #e9ebee;
+}
+
+.dropdown-menu-v2{
+    background: #e9ebee;
+}
+
+.dropdown-menu-v2>li>a:hover {
+    background: #c3c3c4;
+}
+
+.page-header .navbar .container-menu-movil .navbar-nav>li>a {
+    background: #010044;
+}
+
+.portlet>.portlet-title>.caption>i {
+    color: #fffcfc;
+}
+
+.btn.red:not(.btn-outline) {
+    color: #fff;
+    background-color: #940811;
+    border-color: #940811;
+}
+.btn.yellow-gold:not(.btn-outline) {
+    color: #fff;
+    background-color: #a25d0d;
+    border-color: #a25d0d;
+}
+
+.font-red-sunglo {
+    color: #4266b2!important;
+}
+
+.btn.main-color:not(.btn-outline) {
+    color: #fff;
+    background-color: #4266b2;
+    border-color: #4266b2;
+}
+
+.noUi-connect {
+    background: #4265b3 !important;
+    border-radius: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 34px;
+    height: 35px !important;
+    left: -17px;
+    top: -6px;
+}
+
+.noUi-horizontal {
+    height: 24px !important;
+}

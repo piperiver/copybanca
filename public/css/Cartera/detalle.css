@@ -1,0 +1,415 @@
+@media screen{ 
+    .tituloPrincipal{
+        font-weight: 500; 
+        margin-top: -10px;
+        font-size: 36px;
+    }
+    .bootstrap-filestyle{
+        margin-top: 0 !important;
+    }
+    .border-top-left{
+        border-top-left-radius: 10px !important;
+    }
+    .border-top-right{
+        border-top-right-radius: 10px !important;
+    }
+    .border-bottom-left{
+        border-bottom-left-radius: 10px !important;
+    }
+    .border-bottom-right{
+        border-bottom-right-radius: 10px !important;
+    }
+
+    .circulo{
+        border: 2px solid #1b508e;
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;    
+        border-radius: 54px!important;
+        color: #1b508e;
+        height: 85px;
+        width: 85px;  
+        margin: 5px auto;
+    }
+    .btn-rojo{
+        color: #fff;
+        background-color: #911b1d;
+        border-color: #741617;    
+    }
+    .circulo .value{
+        position: absolute;
+        top: 28px;
+        right: 11px;
+        font-size: 18px;
+    }
+
+    .azul{
+        color: #1b508e;
+    }
+    .cafe{
+        color: #911b1d;
+    }
+    .texto-left{
+        text-align: left !important;
+    }
+    .margin-bottom-5{
+        margin-bottom: 5px;
+    }
+    .margin-top-0{
+        margin-top: 0 !important;
+    }
+    .padding-none{
+        padding: 0;
+    }
+    .margin-none{
+        margin: 0;
+    }
+    .margin-5{
+        margin: 5px 0 5px 0;
+    }
+    .zero-margin{
+        margin: 0;
+        margin-top: 5px;
+    }
+    .margin-top-25{
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+    .margin-top-5{
+        margin-top: 5px;
+    }
+    .margin-top-15{
+        margin-top: 15px;
+    }
+    .border-top{
+        border-top: #ccc solid 3px;
+    }
+    .border-bottom{
+        border-bottom: #ccc solid 3px;
+    }
+    .border-right{
+        border-right: #ccc solid 3px;
+    }
+    .border-left{
+        border-left: #ccc solid 3px;
+    }
+    .centrar-margin-top{
+        margin-top: 9% !important;
+    }
+    .titulo{
+        font-size: 15px;
+    }
+    .subtitulo{
+        font-size: 14px;
+    }
+    .texto{
+        font-size: 13px;
+    }
+    .table.tabla thead tr th{
+        font-size: 14px;
+    }
+    .table.tabla thead tr td{
+        font-size: 13px;
+    }
+    #formAddPago .containerOptionPago .optionPago{
+        padding: 3px;
+        border: 1px solid black;
+
+    }
+
+    #formAddPago .containerOptionPago .optionPago.optionSelect{
+        background: #911b1d !important;
+        color: #ffffff !important;    
+    }
+    .valorDevolucion{
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+
+    /* Estilos de el banner */
+    .bannerTop{
+        width: 100%;
+        background: #434b51;
+        color: #fff;
+        padding: 4px;
+    }
+    .bannerTop .bannerTop-right{
+        padding-right: 28px;
+        text-align: right;
+    }
+    .bannerTop .bannerTop-left{
+        padding-left: 28px;
+    }
+    /*-----------------------*/
+
+    /* Cada Columna */
+    .columna{
+        background: #e6e6e6;
+        padding: 15px;
+        box-shadow: 1px 2px 2px black;
+        border-radius: 10px !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        width: 46%;
+        border: 2px solid white;
+        min-height: 430px;
+    }
+    .columna .nombre{
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+    }
+    .columna .vlrcredito{
+        font-size: 21px;
+        font-weight: bold;
+        color: #1b508e;    
+    }
+    .columna .aldia{
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    .columna .botones{    
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        padding-top: 4px;
+        padding-bottom: 1px;
+        width: 184px;
+        font-weight: bold;
+    }
+    .columna .botones:hover, .columna .botones:focus{
+        color: #fff;
+        background: #bc2326;
+    }  
+    .columna .container-table{
+        /*border: 1px solid #911b1d;*/
+        margin: 5px 0 0;
+        border-radius: 1em !important;
+        background: rgba(1,1,1, 0.10);
+        box-shadow: 0px 2px 1px black;
+    }
+    .columna .tabla{    
+        margin: 0;
+        background: #e6e6e6;
+        /*background: rgba(1,1,1, 0.10);*/
+    }
+    .columna .tabla th{
+        border: none;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2px;
+    }
+    .columna .tabla td{
+        padding: 2px;
+        text-align: center;
+        border: none;
+    }
+    .columna .tabla thead, .fondoHeaderTabla, .columna .tabla tfoot, .fondoFooterTabla{
+        background: #98a5a8;
+        color: #333;
+        /*color: #000;*/
+    }  
+    .columna .sumatorias{
+        background: #98a5a8;
+        color: #333;
+        margin: -2px 0 5px 0;
+        padding: 2px;
+        border-radius: 1em !important;
+        margin-top: 7px;
+        box-shadow: 0px 2px 1px black;
+    }
+    .columna .check-list{
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+        background: #f6f6f7;
+        padding: 11px;
+        width: 184px;
+        margin-top: 5px;
+        border-radius: 10px !important;
+        box-shadow: 0px 2px 1px black;
+    }
+    .columna .check-list li span.fa{
+        float: right;
+        margin-left: 11px;
+        margin-top: 0px;
+        background: #cccccc;
+        color: #000000;
+        border-radius: 5px !important;
+        padding: 2px 3px;
+        width: auto !important;
+    }
+    .columna .check-list li{
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .columna .check-list li.rojo{
+        color: #ec1c24;
+    }
+    .columna .check-list li.cafe{
+        color: #911b1d;
+    }
+    .columna .check-list li.azul{
+        color: #1b508e;
+    }
+    .columna .label-credito{
+        display: inline-block;
+        list-style: none;
+        text-align: left;
+        padding: 0;
+    }
+    .columna .label-credito li{
+        padding: 1.4px 0;
+    }
+    .columna .value-credito{
+        display: inline-block;
+        list-style: none;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /*Estilos pago masivo*/
+    #contentPagoMasivo .dt-buttons{
+        float: left;
+    }  
+
+    #contentPagoMasivo #formPagoMasivo{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+
+
+    @media(max-width: 700px){
+        Banner Version Responsive 
+        .bannerTop .bannerTop-right{
+            padding: 0;       
+        }
+        .bannerTop .bannerTop-left{
+            padding: 0;
+        }
+    }
+
+
+
+    @media(max-width: 380px){
+        .bannerTop {
+            font-size: 11px !important;
+        }
+        .tituloPrincipal{
+            font-size: 22px !important;
+            margin-top: -20px;
+            margin-bottom: 0px !important;
+        }
+        .margin-15-movil{
+            margin-top: 10px !important;
+        }
+        .contenedor{
+            width: 100% !important;
+        }
+        .margin-15-movil{
+            margin-top: 15px;
+        }
+        .border-left{
+            border-left: none;
+            border-top: #ccc solid 3px;
+            padding-top: 5px;
+        }
+    }
+    @media(max-width: 418px){        
+        .movilW100{
+            width: 100%;
+        }   
+        .columna .botones{
+            padding: 4px 0 !important;
+            margin-top: 7px !important;
+            width: 80% !important;
+
+        }
+        .margin-top-20{
+            margin-top: 10px !important;
+        }
+        .content-mercado{
+            border-top: #ccc solid 3px;
+            border-left: none;
+            margin-top: 10px;
+        }
+        .columna .check-list{
+            width: 80% !important;
+        }
+    }
+    @media(max-width: 850px){
+        .columna{      
+            padding: 15px;      
+            width: 100%;      
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            min-height: auto !important;
+        }
+        .contenedor {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+        .columna:nth-child(2) {
+            margin-top: 20px;
+        }
+        .columna .sumatorias{
+            margin-bottom: 10px;
+        }
+    }
+
+    @media(max-width: 1000px){
+        .titulo{
+            font-size: 14px;
+        }
+        .subtitulo{
+            font-size: 13px;          
+        }
+        .columna .vlrcredito{
+            font-size: 20px;
+        }
+        .texto{
+            font-size: 12px;
+        }
+        .table.tabla thead tr th {
+            font-size: 13px;
+        }
+        .table.tabla tbody tr td {
+            font-size: 12px;
+        }
+        .tituloPrincipal{
+            font-size: 29px;
+        }
+        .contenedor{
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+        }
+        .columna .botones{
+            width: 162px;
+            padding-top: 1px;
+        }
+        .columna .check-list{
+            width: auto;
+            min-width: 151px;
+            padding: 5px;
+        }
+        .columna{
+            min-height: 402px;
+        }
+        .margin-bottom-5 {
+            margin-bottom: 8px;
+        }
+    }
+    
+    .viewPrint{
+        display: none;
+    }
+
+}
+
+@media print{
+    .viewPrint{
+        display: block;
+    }
+}

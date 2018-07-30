@@ -1,0 +1,654 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/05/2017, 09:24:47 AM
+    Author     : felip
+*/
+
+#container_procesosJuridicos .portlet{
+    margin: 5px !important;
+    border: 0;
+}
+
+#container_procesosJuridicos .portlet>.portlet-title>.tools>a.expand{
+    background-image: url(../assets/global/img/portlet-expand-icon.png) !important;    
+}
+
+#container_procesosJuridicos .portlet.box>.portlet-title>.tools>a.collapse{
+    background-image: url(../assets/global/img/portlet-collapse-icon.png) !important;
+}
+
+#container_procesosJuridicos .portlet.box>.portlet-title{
+    border-color: #adadad !important;
+}
+
+
+.content-estudio .portlet-title strong{
+    font-weight: normal;
+}
+
+.color-white{
+    color:#fff !important;
+}
+.container-uno{
+    background: #e6e6e6;
+    padding: 0 5px 20px 5px;
+    box-shadow: 1px 1px 2px 2px black;
+    border-radius: 10px !important;
+    max-width: 50em;
+    margin: 0 auto;
+}
+.color-blue{
+    color: #2e74bf;
+}
+.color-red{
+    color: #c3484d;
+    font-weight: bold;
+}
+.inline{
+    display: inline-block;
+    width: 49%;
+}
+.background-white{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px !important;
+    border: 1px solid #cccccc;
+    max-width: 37em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-white{
+    color: #e7ecf1;
+}
+
+.color-negro{
+    color: #000000;
+}
+.color-negro span{
+    vertical-align: middle;
+}
+.content-estudio p{
+    margin: 3px 0 3px;
+}
+.margin-left-10{
+    padding-left: 10px;
+}
+.content-estudio .Eheader, .Ebody{
+    padding: 10px;
+}
+.table-personalizada{
+    margin: 0 auto;
+}
+.table-personalizada thead tr th{
+    border: 1px solid #000000;
+}
+.table-personalizada tbody{
+    border: 1px solid #000000;
+}
+.table-personalizada th, .table-personalizada td {
+    padding: 5px;
+}
+.table-personalizada tbody tr td{
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.container-table{
+    /*height: 10em;*/
+    /*overflow: auto;*/
+    display: block;
+    margin: 0 auto;    
+    padding: 0;
+}
+.container-table  .portlet-body{    
+    overflow: auto !important;
+}
+.content-estudio .right .container-table, .content-estudio .right table{
+    width: 100%;
+    max-width: 100%;
+}
+.content-estudio .right .container-table .portlet-body{
+    height: auto !important;    
+}
+.content-estudio .container-table .portlet.box>.portlet-title{
+    padding: 2px 10px;
+}
+.content-estudio .container-table .portlet.box>.portlet-body{
+    padding: 0;
+}
+.content-estudio .portlet>.portlet-title{
+    min-height: 0;
+}
+.margin-top-5{
+    margin-top: 5px;
+}
+.content-estudio .addCuentaCartera{
+    background: #ffffff;
+    padding: 2px 4px 2px 4px;
+    border-radius: 9px!important;
+    color: #4266b2;
+    text-align: center;
+    font-size: 12px;
+}
+.content-estudio .container-table table{
+    margin-bottom: 0;
+}
+.content-estudio p, .content-estudio td, .content-estudio th, .content-estudio label, .container-totales-obligaciones div, .content-estudio select{
+    font-size: 11px;
+}
+.content-estudio h4{
+    font-size: 16px;
+}
+.content-estudio input:focus{
+    border: 1px solid #4266b2;
+    transition: all 1s;
+}
+.inline-block{
+    display: inline-block;
+}
+.desc-info .subtitle{
+    font-weight: bold;    
+}
+.desc-info .form-group{
+    margin-bottom: 10px;
+}
+
+.negrita{
+    font-weight: bold;
+    color: #333;
+}
+.selectOption{
+    max-width: 22em;
+    margin: 0 auto;
+    border-radius: 15px !important;
+}
+/*Estilos modal Info Obligaciones*/
+
+.color-negro, color-negro:hover{
+    color: #000000;
+    text-decoration: none;
+}
+#obligacionesCompletas .editable-click, a.editable-click, a.editable-click:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+/*************************************************************************Estilos modal Calculadora*/
+#modalEstudioCalculadora .form-control:focus{        
+    border-color: #93a1bb !important;
+    outline: 0 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147,161,187,.6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147,161,187,.6) !important;
+}
+#modalEstudioCalculadora .modal-header, #modalEstudioCalculadora .modal-footer, .ModalConfirmBootbox .modal-footer{
+    background: #2f3030;
+}
+#modalEstudioCalculadora .select-comercial{
+    max-width: 36%;
+    display: inline;
+    float: left;
+    margin-left: 12px;
+}    
+#modalEstudioCalculadora .lbl-comercial{
+    color: #fff;
+    float: left;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+#modalEstudioCalculadora .modal-title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 14px;
+}
+#modalEstudioCalculadora .logo{
+    max-width: 3em;
+    margin: 0 auto;
+    display: block;
+}
+#modalEstudioCalculadora .btn-default, .ModalConfirmBootbox .btn-default{
+    border: 1px solid #000;
+}
+#modalEstudioCalculadora .btn-danger, .ModalConfirmBootbox .btn-danger{
+    background: #911b1d;
+    border: 1px solid #000;
+}
+#modalEstudioCalculadora .noUi-horizontal{
+    height: 34px;
+    margin-bottom: 20px;
+}   
+#modalEstudioCalculadora .noUi-horizontal .noUi-handle{
+    height: 44px;
+}
+#modalEstudioCalculadora .noUi-handle:after, #modalEstudioCalculadora .noUi-handle:before{
+    height: 28px;
+}
+#modalEstudioCalculadora .noUi-connect{
+    background: #1b508e;
+}
+#modalEstudioCalculadora .close{
+    color: #fff;
+    text-shadow: none;
+    opacity: 1px;
+}
+#modalEstudioCalculadora .input-group-addon{
+    background-color: #e6e6e6;
+    color: #2f3030;
+}
+#modalEstudioCalculadora .borde-lateral{
+    border-right: 2px solid #ccc;
+}
+.input-group-addon{
+    font-size: 12px;
+}
+@media (max-width:500px){	
+    .input-group-addon{
+        font-size: 11px;
+    }
+    #modalEstudioCalculadora .column-campos{
+        width: 100%;
+    }    
+    #modalEstudioCalculadora .container-comercial{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #modalEstudioCalculadora .noUi-horizontal{
+        margin-bottom: 0;
+    }
+    #modalEstudioCalculadora .select-comercial{
+        max-width: 65%;
+    }
+    #modalEstudioCalculadora .modal-header, #modalEstudioCalculadora .modal-footer{
+        text-align: center;
+    }
+    #modalEstudioCalculadora .lbl-comercial, #modalEstudioCalculadora .select-comercial{
+        float: none;
+    }
+    #modalEstudioCalculadora .borde-lateral{
+        border-right: none;
+    }
+}
+/*************************************************************************FIN Estilos modal Calculadora*/
+.pointer{
+    cursor: pointer;
+}
+.head-inverse{
+    background: #2f373e;
+    color: #fff;
+}
+#ModalDefinirObligaciones .listaSelObligaciones tr.Eliminar td{
+    background: #4266b2;
+    color: #fff;
+}
+.todasObligaciones td, .todasObligaciones th{
+    padding: 3px !important;
+}
+.text-normal{
+    font-weight: normal;
+}
+.sinMarginBottom{
+    margin-bottom: 0;
+}
+.maxWx100{
+    max-width: 100%;
+    border: 0;
+    background: transparent;
+    color: #000;
+}
+.padding-rightX5{
+    padding-right: 5px;
+}
+.Cpago{
+    padding: 3px !important;    
+}
+.Cpago .tablaTotales{    
+    line-height: 18px;
+    margin-top: -2px;
+}
+.negrita{
+    font-weight: bold;
+}
+.container-totales-obligaciones{
+    padding: 0;
+    margin-top: -1px;
+}
+.border-red{
+    border: 1px solid #4266b2 !important;
+}
+.height-celda-vacia{
+    height: 2px;
+}
+.portlet>.portlet-title>.caption {
+    float: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 10px;
+}
+.portlet>.portlet-title>.tools {
+    float: right !important;
+    display: inline-block !important;
+    padding: 0px 0px 0px !important;
+    margin-right: 5px;
+}
+.portlet.box>.portlet-title>.caption{
+    padding: 0 10px !important;
+}
+.container-table .portlet.box{
+    margin-bottom: 0;
+}
+.totalesObligaciones p{
+    margin-bottom: 3px;
+}
+.anchoAuto{
+    width: auto !important;
+    max-width: 125px;
+}
+.border-hidden{
+    background: transparent;
+    border: 0;    
+}
+.border-hidden:focus{
+    border: 0 !important;    
+}
+.center-table{
+    margin: 0 auto;
+}
+.sinSalto{
+    padding-right: 3px;
+    white-space: nowrap;
+}
+.center-table input, .center-table select{
+    height: 22px;
+    padding: 0;
+}
+.center-table{
+    line-height: 22px;
+}
+.pMaximo .portlet-title{
+    background: #fff !important;
+    color: #333 !important;
+    border-top: 1px solid #4266b2;
+    border-bottom: 1px solid #4266b2 !important;
+}
+.pMaximo .portlet-title .caption, .pMaximo .portlet-title .tools .expand{
+    color: #333 !important;
+}
+.margin-topX5{
+    margin-top: 5px !important;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+.padding-left-10{
+    padding-left: 10px;
+}
+.padding-right-10{
+    padding-right: 10px;
+}
+ .Ebody{
+        padding-top: 0;
+}
+.noUi-horizontal {
+    margin: 0px 0px 20px 0px;
+}
+.noUi-horizontal .noUi-handle {
+    width: 34px;
+    height: 44px;
+    left: -17px;
+    top: -6px;
+}
+.noUi-horizontal {
+    height: 36px;
+}
+.myStyleInput{
+    margin-bottom: 5px;
+}
+.myStyleInput .input-group-addon{
+    background: #fff;
+    border: 0;
+    width: 35%;
+    min-width: 58px;
+    padding: 0 5px;
+    text-align: right;
+}
+.myStyleInput input{
+    height: 22px;
+    font-size: 12px;
+}
+.btn-one:hover, .btn-two:hover, .btn-three:hover{
+    background: #2e74bf;
+}
+.btn-one, .btn-two, .btn-three{
+    padding: 4px;
+    margin: 4px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;    
+    background: #286090;
+}
+
+.formizq .input-grupo .input-grupo-label{
+    width: 36%;
+    float: left;
+    text-align: right;   
+    white-space: nowrap;
+    margin: 1px 0;
+    height: 22px;
+    padding-top: 4px;
+}
+.formizq .input-grupo .input-grupo-input{
+    width: 36%;
+    float: left;
+    text-align: left;
+    margin: 1px 4%;
+    margin-bottom: 5px !important;
+    height: 22px;
+}
+.formizq .input-grupo .input-grupo-respuesta{
+    width: 20%;
+    float: left;
+    text-align: left;
+    white-space: nowrap;
+    margin: 1px 0;
+    height: 22px;
+    padding-top: 4px;
+}
+.portlet a, .portlet div, .portlet input, .portlet strong, .portlet p{
+    font-size: 11px;
+} 
+.container-totales-obligaciones .espacio{
+        min-width: 12%;
+}
+ .portlet-todasObligaciones{
+        height: auto !important;
+}   
+.portlet input.resultado , .portlet select.resultado{
+    color: #2e74bf !important;
+    background: #d9d9d9;    
+}
+.portlet input, .portlet select{
+    background: #f2f2f2;   
+    border: 1px solid #ccc;    
+    outline: 0!important;
+}
+.sizeIcons{
+    font-size: 15px;
+}
+/*Estilos para los costos de la transformacion*/
+.modalCostosAndBeneficios .portlet-title{
+    padding: 3px;
+    min-height: 0;
+    text-align: center;
+}
+.modalCostosAndBeneficios .portlet-title strong{
+    font-size: 1.4em;
+}
+.modalCostosAndBeneficios .totales td{
+    border-top: 1px solid #4266b2;
+    border-bottom: 1px solid #4266b2;
+    background: #e6e6e6;
+    font-weight: bold;
+}
+.ui-datepicker-month, .ui-datepicker-year{
+    color: #000000;
+}
+.cuotaFijaVariable .portlet-title{
+    min-height: 0;
+    padding: 3px 10px !important;
+}
+.cuotaFijaVariable .caption strong{
+    font-size: 13px;
+}
+.cuotaFijaVariable .alert{
+    margin-bottom: 0;
+}
+.cuotaFijaVariable .content-part-form{
+    margin-bottom: 15px;
+}
+.cuotaFijaVariable .containerCapacidad{
+    margin-top: 15px;
+    border-top: 1px solid #4266b2;
+    border-bottom: 1px solid #4266b2;
+    background: #e6e6e6;
+    padding: 6px;
+}
+.cuotaFijaVariable .itemCapacidad{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    font-weight: bold;
+}
+.bancos div span{
+    font-size: 14px;
+}
+.bancos>.portlet-title{
+    min-height: 0;
+    padding: 4px;
+}
+.bancos .nombrebanco{
+    vertical-align: middle;
+}
+.bancos .flechaSeleccion{
+    margin-right: 5px;
+}
+@media(max-width: 500px){
+    /*Estilos para los costos de la transformacion*/
+    .modalCostosAndBeneficios .portlet-title strong{
+       font-size: 1.2em;
+    }
+    .modalCostosAndBeneficios table td {
+       font-size: 1em !important;
+       padding: 4;
+    }
+    .modalCostosAndBeneficios .modal-title{
+        font-size: 1.3em;
+        margin-top: 4px;
+    }
+    .container-acciones .desicion, .container-acciones .estado{
+        width: 25%;
+    }
+    .container-acciones .buttonUltimo{
+        width: 50%;
+    }
+    .myStyleInput .input-group-addon{
+        padding: 0 3px 0 2px;
+    }
+    .input-group .form-control{
+        padding: 3px;
+    }
+    .container-totales-obligaciones .espacio{
+        min-width: 10%;
+    }
+    .myStyleInput input{
+        height: 20px;
+        font-size: 11px;
+    }
+    .sinPadding{
+        padding: 0 !important;
+    }
+    .portlet>.portlet-title>.caption{
+        font-size: 12px;
+    }
+    .content-estudio .container-table .portlet.box>.portlet-title{
+        padding: 0;
+    }
+   
+    .content-estudio .Eheader{
+        border-bottom: 0;
+    }
+    body{
+        font-size: 12px;
+    }
+    .background-white{
+        padding: 0;
+        margin: 0;    
+    }
+    .titles-principales{
+        margin: 0;
+    }
+    .todasObligaciones thead th, .todasObligaciones tbody td{
+        font-size: 11px !important;    
+    }
+    .font-11, font-11 td{
+        font-size: 11px !important;
+    }
+    .height-celda-vacia{
+        height: 16px;
+    }   
+    .content-estudio .Eheader{
+        min-height: auto;
+    }
+    .background-white{
+        border: 0;
+        border-radius: none !important;
+    }
+}
+@media(max-width: 368px){
+    .container-totales-obligaciones .espacio{
+        margin-right: 5px;
+    }
+}
+@media(max-width: 415px){
+    .margin-left-10{
+        display: block;
+        margin: 3px 0 3px;
+    }
+}
+@media(max-width: 600px){
+    .background-white{
+        max-width: none;
+    }    
+    .page-content{
+        padding: 0;
+    }
+    .container-uno{
+        background: #ffffff;
+        border-radius: 0 !important;
+    }
+}
+@media(max-width: 991px){
+    .container-table .portlet-body{
+        height: auto;
+        width: 100%;
+    }
+    .content-estudio .right{
+        margin-top: 2em;
+    }   
+    .EliminarCeldaEnMovil{
+        display: none;
+    }
+}
+@media(min-width: 1600px){
+    .content-estudio .container-uno{
+        margin-right: 10px;
+    }
+    .content-estudio .right{
+        margin-left: 10px;
+    }
+
+}

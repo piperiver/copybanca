@@ -1,0 +1,359 @@
+@font-face {
+	font-family: 'roboto';
+	src: url('fonts/Roboto-Regular.eot');
+	src: local('☺'), url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    color: #2f3030; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#carouselDesc{
+    width: 80%;   
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#carouselDesc .carousel-indicators li{
+    border-color: #000000;
+    background: #000000;
+}
+#carouselDesc .carousel-indicators li.active{
+    background: #ffffff !important;
+}
+#carouselDesc .carousel-inner .item h2{
+    text-align: center;  
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#carouselDesc .carousel-inner .item img{
+    margin: 0 auto;
+    width: 30%;    
+}
+#carouselDesc .carousel-inner .item p{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+#carouselDesc .carousel-indicators{
+    height: 5%;
+    top: 95%;
+}
+
+.decotarion-icon{        
+    color: #ffffff;    
+    justify-content: center;
+    flex-direction: column;
+    display: inline-flex;
+    background: #e41e29;
+    height: 2.6em;
+    width: 2.6em;
+    position: absolute;
+    vertical-align: middle;
+    border: 3px solid #911b1d;
+    box-shadow: 0 0 0px 7px #d3d3d3;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    left: -15px;
+    top: 7px;
+}
+.decotarion-icon:active, .decotarion-icon:hover{
+    transition: all .3s ease-out;
+    transform: rotate(360deg);  
+}
+.decoration-barra{
+    position: relative;    
+    display: block;
+    padding: 1em 1em 1.1em 1em;        
+    border-radius: 0.7em;
+    font-size: 20px;    
+    background: #911b1d;
+    color: #ffffff;
+    padding-left: 3em;
+}
+/* Logica para crear los numeros redondos */
+.rounded-list{    
+    counter-reset: li; /* inicia a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */    
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 1em;    
+    width: 70%;    
+}
+.rounded-list p{
+    position: relative;
+    display: block;
+    padding: .7em .7em .7em 2em;
+    margin: 0;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 0.7em;
+    font-size: 1.2em;
+    transition: all .3s ease-out;
+}
+
+.rounded-list p.active{
+    background: #911b1d;
+    color: #ffffff;
+}
+.rounded-list p.active:before{
+    top: 0;
+    margin-top: 5px;
+}
+/*.rounded-list p:active:before{
+    transform: rotate(360deg); 
+}*/
+
+.rounded-list p:before{
+    font-size: 1.3em;
+    color: #ffffff;
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1em;
+    top: 70%;
+    margin-top: -1.3em;
+    background: #e41e29;
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    border: 3px solid #911b1d;
+    box-shadow: 0 0 0px 4px #d3d3d3;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em; 
+    transition: all .5s ease-out;
+}
+/* Fin logica para crear numeros redondos */
+
+
+.lateral{
+    margin-bottom: 2em;
+}
+
+
+/****** botones */
+.btnValorate{
+    border: 1px solid rgba(0,0,0,.3);
+    background: #e41e29;
+    border-bottom: 4px solid #911b1d;
+    border-left: 4px solid #911b1d;
+    border-radius: 0.5em;
+    font-size: 1.6em;
+    margin: 0 auto;
+    width: 60%;
+    min-width: 80px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #ffffff;    
+    text-decoration: none;
+    font-weight: bold;    
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: 700;
+    transition: .2s;
+}
+.btnValorate:hover, .btnSiguiente:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btnValorate:active, .btnSiguiente:active, .btnPagos:active{
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+.btnSiguiente{
+    background: #e41e29;
+    border: 1px solid rgba(0,0,0,.3);
+    box-shadow: inset 0 -0.2em rgba(0,0,0,.3);    
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    margin: 0 auto;    
+    min-width: 105px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #ffffff;    
+    text-decoration: none;    
+    cursor: pointer;
+    transition: .2s;
+    font-weight: 700;
+}
+
+.btnPagos{
+    border: 1px solid rgba(0,0,0,.3);
+    background: #f2f2f2;    
+    box-shadow: inset 0 -0.2em rgba(0,0,0,.3);
+    border-radius: 0.4em;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: .7em;
+    color: #2f3030;
+    margin-top: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .2s;
+}
+.btnPagos:hover{
+    color: #2f3030;
+    text-decoration: none;
+}
+
+/************ fin botones */
+.container{
+    padding-bottom: 20px;
+}
+.title-pasos{    
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.item-pasos{
+    cursor: pointer;
+}
+.item-pasos p.desc{
+    display: none;   
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: #2f3030;   
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #2f3030;   
+   
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #2f3030;      
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #2f3030;   
+}
+
+.form-datos input.new:focus{
+    border-bottom: 1px solid #e41e29;
+    box-shadow: 0 2px 2px -1px #e41e29;
+}
+.form-datos input.new{    
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    border-color: ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-datos .campo{
+    width: 100%;
+    color: #000;
+    text-align: center;   
+    min-height: 3em;
+    box-shadow: 1px 1px 4px 1px #cccccc;
+    border: 0;
+    border-radius: 10px;
+    background: #f2f2f2;
+    font-size: 1.2em;
+    transition: all .3s ease-out;
+}
+.form-datos label{
+     margin-top: 20px;
+}
+.form-datos fieldset{
+    border-radius: 10px;
+    padding: 15px;        
+}
+.respuestas{
+    width: 90%;
+    margin: 0 auto;
+}
+.text-pregunta{
+    font-size: 1.2em;
+}
+/***************** radio buttons ********************/
+.respuestas label{
+    font-size: 1.1em ;  
+    padding-left: 1.7em;
+}
+.respuestas label input[type="radio"]{
+    display: none;
+}
+
+.respuestas label input[type="radio"] ~ i.fa.fa-circle-o{
+    color: #000000;    
+    display: inline;
+    position: absolute;
+    left: -10px;
+    top: -4px;
+}
+.respuestas label input[type="radio"] ~ i.fa.fa-dot-circle-o{
+    display: none;
+}
+.respuestas label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+    display: none;
+}
+.respuestas label input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+    color: #e41e29;    
+    display: inline;
+    position: absolute;
+    left: -10px;
+    top: -4px;
+}
+.respuestas .radio{
+    margin-bottom: 2em;
+}
+/***************** fin radio buttons ****************/
+.borderVertical {
+    border-right: none;
+}
+
+@media (min-width:992px) {  
+    .borderVertical {
+        border-right: 3px solid #a3a3a3;
+    }
+    #pasoApaso{
+        margin-top: 0;
+    }
+    #carouselDesc .carousel-inner .item h2{
+        margin-bottom: 20px;
+    }
+    #carouselDesc .carousel-inner .item img{
+        width: 33%;        
+    }
+    #carouselDesc .carousel-inner .item p{
+        margin-bottom: 30px;
+    }
+    .container-contenido{
+        margin-top: 6%;    
+    }    
+    #pasoApaso .content-item{
+        border: 2px solid #a3a3a3;
+        border-radius: 1em;
+        padding: 2em;
+        background: #f2f2f2;
+        margin-top: 2em;
+    }
+    .form-datos .campo{
+        background: #ffffff;
+    }
+}
+@media (max-width: 990px) {
+    .lateral-ancho{
+        margin-left: 15px;
+        padding: 1em 2em;
+    }
+}

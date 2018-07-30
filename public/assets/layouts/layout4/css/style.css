@@ -1,0 +1,479 @@
+@charset "UTF-8";
+.bold{
+    font-weight: bold !important;
+}
+body {    
+	background: #eae8e8;
+
+}
+.navbar-toggle{
+	float: left!important;
+}
+.navbar-brand{
+	padding: 15px!important;
+    padding-top: 15px!important;
+    padding-right: 15px!important;
+    padding-bottom: 15px!important;
+    padding-left: 10px!important;	
+}
+.conte .uno  .panel-body{
+	background-color: #ebebeb!important;
+	border:0px !important;
+	padding-bottom: 1em!important;
+	box-shadow: 0px 0px 0px #ebebeb!important;
+}
+.conte .uno .panel1 .cifra {
+	position: relative;
+	bottom: 10px!important;	
+	font-size: 1.2em;
+}
+.conte .uno .panel1 {	
+    border:0px !important;
+    position: relative !important;        
+    background-color: transparent!important;
+}
+.conte .uno .panel1  div.panel-body {
+	margin-top: -10px!important;
+    padding: 0.3em!important;
+}
+.uno .content-cifra{
+    width: 120px;
+    margin: 0 auto;
+}
+ .icon1 {
+	color: #ec1c24;
+	font-size: 2.5em;
+}
+ .icon2 {
+	color: #911b1d;
+	font-size: 2.5em;
+}
+ .icon3 {
+	color:#1b508e;
+	font-size: 2.5em;
+}
+.conte .uno .cua div {
+	width: 100%!important;	
+}
+.conte .uno .cua >h3 {
+	color: #000!important;
+}
+.menu {
+	background-color: #2f3030;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.menu img {
+	width: 5%;
+	padding: 0.5em;
+}
+.conte {
+    width: 90%;
+    height: auto;    
+    text-align: center;    
+    margin-bottom: 20px;
+}
+.sub-title h2{
+    font-weight: bold;
+    font-size: 1em;    
+}
+.abajo .title-abajo{
+    font-weight: bold;
+    font-size: 1.3em;    
+}
+.sub-title strong{
+    font-size: 3.4em;    
+}
+.conte .uno h1, .conte .dos h1 {
+	font-size: 1.5em;
+    font-weight: bold;
+}
+.conte .container-uno, .conte .container-dos {
+	padding-top: 1em;
+	text-align: center;	
+	margin-top: 2em;
+	border-radius: 2em;
+	border: 2px solid white;
+	box-shadow:  1px 2px 2px black;
+	background: #e6e6e6;
+    padding: 0 5px 20px 5px;
+    min-height: 40em;
+}
+.conte .dos {
+	position: relative;	
+}
+.conte .uno .interno, .conte .dos .interno {
+	height: 60%;
+	width: 100%;	
+	max-width: none;
+	border-bottom: #ccc solid 3px;
+     position: relative;     
+}
+.conte .dos .interno{
+    padding-bottom: 41px;
+}
+.conte .uno .abajo, .conte .dos .abajo {
+	text-align: center;	
+}
+.abajo {
+	z-index: 1000;
+	position: relative;
+	top: 1%;
+}
+/*.uno .abajo .centrales, .uno .abajo .juri {
+	 padding-top: 1em;
+	width: 20em;
+	border-radius: 1em;
+	background: rgba(1,1,1, 0.10);
+	height: 4.5em;
+	text-align: center;
+	box-shadow: 0px 2px 1px black;
+	font-size: 1em;	
+	font-weight: 400;	
+	list-style: none;
+	margin:1em auto;
+	display: block;
+}
+.uno .abajo .centrales span, .uno .abajo .juri span {
+	float: left;
+	font-size: 2em;
+	left: 6%;
+	color:#000;
+	font-weight: 500;
+}*/
+.uno .abajo .centrales, .uno .abajo .juri {
+	padding: 1.4em;
+	width: 90%;
+    max-width: 20em;
+	border-radius: 1em;
+	background: rgba(1,1,1, 0.10);	
+	text-align: center;
+	box-shadow: 0px 2px 1px black;
+	font-size: 1.1em;
+	margin:1em auto;	
+}
+.uno .abajo .centrales i, .uno .abajo .juri i{
+	font-size: 1.6em;
+}
+.uno .abajo .datos {
+	background: rgba(1,1,1, 0.1);
+	width: 2.3em;
+	height: 2.3em;
+	border-radius: 0.5em;
+	margin-left: 2.5em;
+}
+@media (max-width:1200px){	
+   .conte .uno h1, .conte .dos h1 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+}
+@media (max-width:768px){	
+	
+	.conte .dos { 
+	margin-top: 2em;
+	
+	}
+    .conte .uno .obli h3 .data1{
+        color:#ec1c24;
+        font-size:2em!important;
+
+    }
+    .conte .uno .obli h3 .trans1 {
+        color: #911b1d;
+        font-size:3em!important;
+    }	
+	.prob ul {
+		padding-left: 3em;
+	}	
+	.prob ul li h2 {
+        font-size: 1em;
+        width: auto;
+        text-align: left;
+        margin:0.3 ;
+        position: relative;
+    }	   
+    .cuadros{
+        height: auto !important;
+        position: relative;
+        top:2em;
+        left: 0%;
+        width: 100%;
+        padding: 0;
+    }
+    .cuadros ul {
+	   width: 80%!important;
+    }
+    .cuadros ul li {
+        position: relative!important;
+        left:-20%!important;
+    }
+    .cuadros ul li h1 {
+        width: 100%!important;
+        font-size: 0.8em!important;
+    }
+}
+
+
+
+	
+/************************************************** Inicio Estilos Felipe *************************************/	
+.fondo-mora{
+	background-image: url("../imgValoracion/mora.svg");
+}
+.fondo-castigada{
+	background-image: url("../imgValoracion/castigada.svg");
+}
+.fondo-dia{
+	background-image: url("../imgValoracion/dia.svg");
+}
+.container-object{	
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 100%;
+	padding: 20px;
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;	
+	margin: 0 auto;
+}
+
+.text-blue{
+	color: #3071a9;
+	font-weight: bold;
+}
+.title-p-accion{
+	padding-bottom: 20px;
+}
+.color-coffe{
+	color: #5c363d;
+}
+.color-blue{
+	color: #3071a9;
+}
+.color-red{
+	color: #e41e29;	
+}
+.negrita{
+	font-weight: bold;
+}
+.container-round div span{
+	margin-right: 5px;
+}
+.container-round .container-object{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container-round{
+	margin-top: 18px;
+}
+.font-20{
+	font-size: 1em;
+}
+.container-desc-plan-accion .img-lista{
+    max-width: 7em;
+/*    padding: 0 4% 0px 9%;
+    float: left;*/
+}
+.img-calculadoraValoracion{
+    cursor: pointer;
+    max-width: 8.7em;
+    margin-top: 7px;
+}
+.padding-right{
+    padding-right: 36px;
+}
+.padding-left{
+    padding-left: 36px;
+}
+.buttonCalculadora{
+    outline: none;
+    border-radius: 5em;
+    background: #1b508e;
+    border: 1px solid rgba(0,0,0,.3);
+    box-shadow: inset 0 -0.3em rgba(0,0,0,.3);
+    transition: .2s;
+}
+.buttonCalculadora:active{
+    outline: none;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+.buttonCalculadora .iconCalculadora{
+    color: #fff;
+    padding: 25px 20px 25px 25px;
+    text-shadow: 2px 2px 5px #323232;
+}
+.container-desc-plan-accion .text-descripcion{
+    font-size: 1.3em;
+	padding-right: 10%;
+    width: 70%;
+    float: right;
+}
+.pointer{
+	cursor: pointer;
+}
+.list-rangos{
+	padding: 0;
+    width: 250px;
+    list-style: none;
+    text-align: left;
+    margin: 0 auto;
+	margin-bottom: 13px;
+}
+.container-round-desc{
+	margin-top: 15px;
+}
+.container-round-title{
+	margin-bottom: 15px;
+}
+
+#modalEstudio .select-comercial{
+    max-width: 36%;
+    display: inline;
+    float: left;
+    margin-left: 12px;
+}    
+#modalEstudio .lbl-comercial{
+    color: #fff;
+    float: left;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+#modalEstudio .modal-title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 14px;
+}
+#modalEstudio .logo{
+    max-width: 3em;
+    margin: 0 auto;
+    display: block;
+}
+#modalEstudio .btn-default, .ModalConfirmBootbox .btn-default{
+    border: 1px solid #000;
+}
+#modalEstudio .btn-danger, .ModalConfirmBootbox .btn-danger{
+    background: #911b1d;
+    border: 1px solid #000;
+}
+#modalEstudio .noUi-horizontal{
+    height: 34px;
+    margin-bottom: 20px;
+}   
+#modalEstudio .noUi-horizontal .noUi-handle{
+    height: 44px;
+}
+#modalEstudio .noUi-handle:after, #modalEstudio .noUi-handle:before{
+    height: 28px;
+}
+#modalEstudio .noUi-connect{
+    background: #1b508e;
+}
+#modalEstudio .close{
+    color: #fff;
+    text-shadow: none;
+    opacity: 1px;
+}
+#modalEstudio .input-group-addon{
+    background-color: #e6e6e6;
+    color: #2f3030;
+}
+#modalEstudio .borde-lateral{
+    border-right: 2px solid #ccc;
+}
+.ModalConfirmBootbox .modal-footer{
+        text-align: center;
+}
+/*Fin  estilos modales*/
+
+.mediaWidth{     
+    padding: 1em 0 2em;
+}
+.marginX4{
+    margin-top: 4px;
+}
+.paddingLeftX4{
+    padding-left: 4.5em;
+}
+.paddingRightX4{
+    padding-right: 4.4em;
+}
+
+
+/*FIN Estilos modal Calculadora*/
+@media (max-width:500px){	
+    #modalEstudio .column-campos{
+        width: 100%;
+    }    
+    #modalEstudio .container-comercial{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #modalEstudio .noUi-horizontal{
+        margin-bottom: 0;
+    }
+    #modalEstudio .select-comercial{
+        max-width: 65%;
+    }
+    #modalEstudio .modal-header, #modalEstudio .modal-footer{
+        text-align: center;
+    }
+    #modalEstudio .lbl-comercial, #modalEstudio .select-comercial{
+        float: none;
+    }
+    #modalEstudio .borde-lateral{
+        border-right: none;
+    }
+    .mediaWidth{
+        width: 100%;        
+    }
+    .padding-right{
+        padding: 0;
+    }
+    .padding-left{
+        padding: 0;
+    }
+    .conte .uno .panel1 .cifra{
+            font-size: 1em !important;	
+    }
+}
+.morado{
+    background: #563d7c;
+}
+.btn-material{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;    
+    border-color: transparent;
+    z-index: 10000;
+    font-size: 12px;
+    text-align: center;
+    padding: 18px;
+    cursor: pointer;
+}
+.btn-material:hover{ 
+    transition: all 200ms ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16);    
+    width: 65px;
+    height: 65px;
+    bottom: 22px;
+    right: 22px;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+}
+/************************************************** Fin Estilos Felipe *************************************/	
+
+
+
+
+	
+	

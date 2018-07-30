@@ -1,0 +1,191 @@
+@charset "utf-8";
+body{
+     color: #2f3030;      
+}
+.login{
+    margin-right: 10px;
+    font-size: 2em;    
+    color: #cccccc;
+}
+.login:hover{
+    color: #ffffff;
+}
+.oscuro{
+     color: #2f3030; 
+}
+
+.menu {
+	background-color: #c3c3c4;
+	width: 100%;	
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;	
+}
+
+.menu-vtm .list-menu li{
+    cursor: pointer;
+}
+.glyphicon-menu-hamburger {
+	position: inherit;
+	margin-top: 0.3em;
+	margin-left: 0.8em!important;
+	font-size: 1.5em;
+	color:white;
+	
+}
+.menu img {
+	width: 15em;
+    margin-left: 3%;
+	
+}
+
+@media (min-width:768px) {   
+
+    .menu:hover .glyphicon-menu-hamburger {
+        text-shadow: 0px 1px 1px white;
+        transition: 0.3s;
+        color:rgba(135,132,132,1.00);
+    }
+}
+
+
+
+.menu-vtm {    
+    background: #010044;
+    width: 100%;    
+    padding: 0;
+    margin: 0;
+}
+
+.menu-vtm ul {
+	list-style: none;
+    display: flex;
+    margin: 0 auto;
+    background: rgba(47,48,48, 0.8);    
+    width: 100%;	
+}
+
+.menu-vtm ul li {
+	flex-grow: 1;
+    padding: 2px;
+    border-right: 1px solid rgba(212,212,212,0.20);
+    border-top: 1px solid rgba(212,212,212,0.10);
+    text-align: center;
+    cursor: pointer;
+	
+}
+
+.menu-vtm ul li:hover  {
+	background: rgba(212,212,212,0.70);
+    transition: 0.2s;
+	cursor: pointer;
+	
+}
+
+.menu-vtm ul li:hover a {
+	color: black !important;
+	transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+.menu-vtm ul li a {
+	text-decoration: none;
+	color:white;
+    position: relative;
+	top: 0.2em;
+	font-size: 1.2em;
+}
+
+
+#boton1 {
+	display: none;
+	
+}
+
+.boton1 {
+	display: none !important;
+}
+
+.formulario input{
+    color: #000;    
+}
+
+@media (max-width:768px) {	
+	.menu-vtm ul{
+        background: #010044;
+    }
+	.menu img {
+	    width: 65px;        
+		padding: 5px;	
+    }	
+    .boton1 {
+	   display: initial;
+        cursor: pointer;
+    }
+   
+    .menu-vtm .list-menu{
+        display: inline;
+    }
+    .menu-vtm .list-menu li{
+        text-align: left;
+        cursor: pointer;
+        padding-left: 15px;
+        font-weight: bold;
+    }
+    .menu-vtm{
+        background: #010044;
+        z-index: 2;
+        padding: 10px;
+        width: 100% !important;           
+    }
+    .boton1{
+        display: none !important;
+    }
+    .menu-vtm ul li{
+        border-right: none;
+        border-bottom: 1px solid rgba(212,212,212,0.20);
+        padding: 8px 0 8px;
+    }
+}
+
+/******* Clases usadas por javascript para ocultar y mostrat el menu con el click ***********/
+
+    .desplegarMenu {
+        top: 3.3em !important;
+        transition: 0.5s !important;        
+    }
+	
+    .ocultarMenu{
+        top: -12.5em!important;
+        transition: 0.5s!important;
+    }
+
+    .opacidadLanding{
+        background: #747474;
+        opacity: 0.5;    
+        width: 100% !important;        
+    }
+    
+    .removeOpacidadLanding{
+        width: 95%;
+        background: transparent;
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
